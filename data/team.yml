@@ -1,4 +1,13 @@
+
 - name: eli
   job: web developper
+  picture: http://unsplash.it/300/300/?image=1
 - name: jacques
   job: designer
+  picture: http://unsplash.it/300/300/?image=1
+- name: karine
+  job: graphic designer
+  picture: http://unsplash.it/300/300/?image=1
+- name: boris
+  job: ceo
+  picture: http://unsplash.it/300/300/?image=1

@@ -55,4 +55,12 @@
   &-link:hover{
     opacity: 0.1;
   }
+  &-bg-grey{
+    background-color: $gray;
+    color: white;
+    padding: 30px 0;
+    p {
+      padding-top: 15px;
+    }
+  }
 }

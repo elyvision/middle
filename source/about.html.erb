@@ -1,5 +1,33 @@
-<h1>HELLO WORLD</h1>
+<div class="text-center">
+  <h1>Notre équipe</h1>
+  <div class="container">
+    <div class="row padded">
+        <% data.team.each do |person| %>
+            <div class="col-xs-12 col-sm-3">
+              <div class="card-bg-grey">
+                <%= image_tag person.picture, class: "img-circle img-sm" %>
+                <p><%= person.name %> <%= person.job %></p>
+              </div>
+            </div>
+        <% end %>
 
-<% data.team.each do |person| %>
-  <%= person.name %> <%= person.job %>
-<% end %>
+    </div>
+        <%= link_to "INDEX", "index.html",  class: "btn btn-primary btn-lg" %>
+  </div>
+</div>
+
+<div class="text-center">
+  <h1>Notre équipe</h1>
+        <% data.team.each do |person| %>
+            <div class="col-xs-12 col-sm-3">
+              <div class="card-bg-grey">
+                <%= image_tag person.picture, class: "img-circle img-sm" %>
+                <p><%= person.name %> <%= person.job %></p>
+              </div>
+            </div>
+        <% end %>
+
+    </div>
+        <%= link_to "INDEX", "index.html",  class: "btn btn-primary btn-lg" %>
+  </div>
+</div>
